@@ -9,6 +9,8 @@ def canUnlockAll(boxes):
     Function that checks if all boxes can be unlocked.
     """
     boxes_amount = len(boxes)
+    if boxes_amount == 1:
+        return True
     locked = set([box for box in range(1, boxes_amount)])
     current_keys = [*boxes[0]]
     while current_keys:
