@@ -11,7 +11,7 @@ def canUnlockAll(boxes):
     boxes_amount = len(boxes)
     if boxes_amount <= 1:
         return True
-    locked = set([box for box in range(1, boxes_amount)]
+    locked = set([box for box in range(1, boxes_amount)])
     current_keys = [key for key in boxes[0]]
     while current_keys:
         test_key = current_keys.pop()
