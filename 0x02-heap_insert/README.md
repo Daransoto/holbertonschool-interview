@@ -4,8 +4,8 @@
 
 ### Description
 
-This project is about solving the problem to insert a node in a max binary heap.
-For task 0 (Insert node in a binary tree), you can execute the file `0-node` or compile it using ```gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 0-main.c 0-binary_tree_node.c -o 0-node```
+This project is about solving the problem to insert a node in a max binary heap. <br/>
+For task 0 (Insert node in a binary tree), you can execute the file `0-node` or compile it using ```gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 0-main.c 0-binary_tree_node.c -o 0-node```<br/>
 For task 1 (Insert node in a max binary heap), you can execute the file `1-heap_insert` or compile it using ```gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 1-main.c 1-heap_insert.c 0-binary_tree_node.c -o 1-heap_insert```
 
 ### Mandatory Tasks
