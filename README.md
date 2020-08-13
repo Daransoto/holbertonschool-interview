@@ -14,6 +14,7 @@ This repository is for solving some problems that can appear in interviews.
 | [0x01-insert_in_sorted_linked_list](0x01-insert_in_sorted_linked_list) | Problem about inserting a new node in a sorted singly linked list in C. |
 | [0x02-heap_insert](0x02-heap_insert) | Problem about inserting a node in a max binary heap. |
 | [0x03-minimum_operations](0x03-minimum_operations) | Problem about number of copy and paste operations necessary to get to a number of characters. |
+| [0x04-sandpiles](0x04-sandpiles) | Problem about adding two sandpiles. |
 
 
 ## Author
