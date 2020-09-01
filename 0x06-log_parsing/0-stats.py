@@ -11,10 +11,10 @@ size = 0
 try:
     for i, logs in enumerate(sys.stdin, 1):
         data = logs.split()
+        size += int(data[-1])
         if len(data) <= 2 or data[-2] not in res.keys():
             continue
         res[data[-2]] += 1
-        size += int(data[-1])
         if i % 10 == 0:
             print("{}: {}".format("File size", size))
             for key in sorted(res.keys()):
