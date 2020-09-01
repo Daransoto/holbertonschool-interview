@@ -11,7 +11,7 @@ size = 0
 try:
     for i, logs in enumerate(sys.stdin, 1):
         data = logs.split()
-        if len(data) < 2 or data[-2] not in res.keys():
+        if len(data) <= 2 or data[-2] not in res.keys():
             continue
         res[data[-2]] += 1
         size += int(data[-1])
