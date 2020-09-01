@@ -16,6 +16,7 @@ This repository is for solving some problems that can appear in interviews.
 | [0x03-minimum_operations](0x03-minimum_operations) | Problem about number of copy and paste operations necessary to get to a number of characters. |
 | [0x04-sandpiles](0x04-sandpiles) | Problem about adding two sandpiles. |
 | [0x05-linked_list_palindrome](0x05-linked_list_palindrome) | Problem about checking if a linked list is a palindrome. |
+| [0x06-log_parsing](0x06-log_parsing) | Problem about computing metrics from a log file. |
 
 
 ## Author
