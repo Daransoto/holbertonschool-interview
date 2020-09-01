@@ -21,12 +21,10 @@ while True:
                     print("{}: {:d}".format("File size", value))
                 elif value > 0:
                     print("{}: {:d}".format(key, value))
-    except (KeyboardInterrupt, EOFError, IndexError):
+    except:
         for key, value in sorted(res.items()):
-            if key == "0" and value > 0:
+            if key == "0":
                 print("{}: {:d}".format("File size", value))
             elif value > 0:
                 print("{}: {:d}".format(key, value))
-        break
-    except Exception:
         break
