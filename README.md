@@ -18,6 +18,7 @@ This repository is for solving some problems that can appear in interviews.
 | [0x05-linked_list_palindrome](0x05-linked_list_palindrome) | Problem about checking if a linked list is a palindrome. |
 | [0x06-log_parsing](0x06-log_parsing) | Problem about computing metrics from a log file. |
 | [0x07-linked_list_cycle](0x07-linked_list_cycle) | Problem about finding if a linked list has a cycle. |
+| [0x08-palindrome_integer](0x08-palindrome_integer) | Problem about checking if a number is a palindrome or not. |
 
 
 ## Author
