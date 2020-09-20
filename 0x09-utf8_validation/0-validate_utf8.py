@@ -8,8 +8,8 @@ def validUTF8(data):
     """
     i = 0
     ld = len(data)
-    count = 0
     while i < ld:
+        count = 0
         if data[i] & 0x80 == 0:
             i += 1
         elif data[i] & 0xc0 == 0x80 or data[i] & 0xf8 == 0xf8:
