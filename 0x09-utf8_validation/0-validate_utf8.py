@@ -8,6 +8,7 @@ def validUTF8(data):
     """
     i = 0
     ld = len(data)
+    count = 0
     while i < ld:
         if data[i] & 0x80 == 0:
             i += 1
@@ -15,7 +16,6 @@ def validUTF8(data):
             return False
         else:
             test = 0x40
-            count = 0
             while data[i] & test:
                 count += 1
                 test >>= 1
@@ -24,4 +24,4 @@ def validUTF8(data):
                 if i >= ld or data[i] & 0x80 != 0x80:
                     return False
                 i += 1
-    return i == ld
+    return count == 0
