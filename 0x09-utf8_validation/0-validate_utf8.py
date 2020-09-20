@@ -10,20 +10,18 @@ def validUTF8(data):
     ld = len(data)
     count = 0
     while i < ld:
-        byte = data[i] & 0xff
-        if byte & 0x80 == 0:
+        if data[i] & 0x80 == 0:
             i += 1
-        elif byte & 0xc0 == 0x80:
+        elif data[i] & 0xc0 == 0x80 or data[i] & 0xf8 == 0xf8:
             return False
         else:
             test = 0x40
-            while byte & test:
+            while data[i] & test:
                 count += 1
                 test >>= 1
             i += 1
             for _ in range(count):
-                byte = data[i] & 0xff
-                if i >= ld or byte & 0x80 != 0x80:
+                if i >= ld or data[i] & 0x80 != 0x80:
                     return False
                 i += 1
     return count == 0
