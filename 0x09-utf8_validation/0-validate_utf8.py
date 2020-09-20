@@ -21,8 +21,7 @@ def validUTF8(data):
                 test >>= 1
             i += 1
             for _ in range(count):
-                if i >= ld or data[i] & 0x80 != 0x80:
+                if i >= ld or data[i] & 0xc0 != 0x80:
                     return False
                 i += 1
-                count -= 1
-    return count == 0
+    return True
