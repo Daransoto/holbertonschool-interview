@@ -19,6 +19,8 @@ This repository is for solving some problems that can appear in interviews.
 | [0x06-log_parsing](0x06-log_parsing) | Problem about computing metrics from a log file. |
 | [0x07-linked_list_cycle](0x07-linked_list_cycle) | Problem about finding if a linked list has a cycle. |
 | [0x08-palindrome_integer](0x08-palindrome_integer) | Problem about checking if a number is a palindrome or not. |
+| [0x09-utf8_validation](0x09-utf8_validation) | Problem about checking if a string is a valid utf-8 encoding or not.  |
+| [0x0A-slide_line](0x0A-slide_line) | Problem about reproducing the mechanics of the 2048 game on a single row. |
 
 
 ## Author
