@@ -22,6 +22,7 @@ This repository is for solving some problems that can appear in interviews.
 | [0x09-utf8_validation](0x09-utf8_validation) | Problem about checking if a string is a valid utf-8 encoding or not.  |
 | [0x0A-slide_line](0x0A-slide_line) | Problem about reproducing the mechanics of the 2048 game on a single row. |
 | [0x0B-menger](0x0B-menger) | Problem about drawing a menger sponge. |
+| [0x0C-nqueens](0x0C-nqueens) | Problem about placing N queens on a chessboard. |
 
 
 ## Author
